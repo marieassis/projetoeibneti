@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>eibneti - Escola de Informática de Brasília</title>
+  <meta content="A Eibneti é um conceituado e experiente Centro de Treinamento em Informática, com uma ampla visão voltada para as necessidades e tendências do mercado profissional." name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- CSS Externos -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- --- Top Bar --- -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-pencil-square d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-headset d-flex align-items-center ms-4"><span> (61) 3964-3545</span></i>
+        <i class="bi bi-whatsapp d-flex align-items-center ms-4"><span> (61) 98637-2269</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Header --- -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1><a href="index.html"><img src="logo_eibneti_topo.png" alt="logo-eibneti" height="100px"></a></h1>
+       </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <!--Dropdown-->
+          <li class="dropdown"><a href="#"><span>Quem somos</span><i class="bi bi-plus"></i></a>
+            <ul>
+              <li><a href="#">A Empresa</a></li>            
+              <li><a href="#">Ensino de Qualidade</a></li>
+              <li><a href="#">Estrutura</a></li>
+              <li><a href="#">Clientes</a></li> 
+              <li><a href="#">Depoimentos</a></li>
+            </ul>
+          </li>
+          <!---->
+          <!--Dropdown-->
+          <li class="dropdown"><a href="#"><span>Cursos</span><i class="bi bi-plus"></i></a>
+            <ul>
+              <li><a href="#">Todos os Cursos</a></li>
+              <!--deep drop down-->
+              <li class="dropdown"><a href="#"><span>Iniciante</span> <i class="bi bi-plus"></i></a>
+                <ul>
+                  <li><a href="#">Excel Básico e Intermediário</a></li>
+                  <li><a href="#">Excel Avançado</a></li>
+                  <li><a href="#">Dashboard</a></li> 
+                  <li><a href="#">Informática Básica - Operador de Micro</a></li>
+                </ul>
+              </li>
+              <!---->
+              <!--deep drop down-->
+              <li class="dropdown"><a href="#"><span>Banco de Dados</span> <i class="bi bi-plus"></i></a>
+                <ul>
+                  <li><a href="#">Access 2010</a></li>
+                  <li><a href="#">Oracle 11G</a></li>
+                  <li><a href="#">SQL Server</a></li> 
+                </ul>
+              </li>
+              <!---->
+              <!--deep drop down-->
+              <li class="dropdown"><a href="#"><span>Design / Web</span> <i class="bi bi-plus"></i></a>
+                <ul>
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">Design Gráfico</a></li>
+                  <li><a href="#">HTML e CSS</a></li> 
+                  <li><a href="#">Flash Programado</a></li>
+                </ul>
+              </li>
+              <!---->
+              <!--deep drop down-->
+              <li class="dropdown"><a href="#"><span>Gestão</span> <i class="bi bi-plus"></i></a>
+                <ul>
+                  <li><a href="#">Gerência de Projetos</a></li>
+                  <li><a href="#">Análise de Sistemas</a></li>
+                  <li><a href="#">Microsoft Project</a></li> 
+                  <li><a href="#">ITIL</a></li>
+                  <li><a href="#">Dashboard</a></li>
+                </ul>
+              </li>
+              <!---->
+              <!--deep drop down-->
+              <li class="dropdown"><a href="#"><span>Programação</span> <i class="bi bi-plus"></i></a>
+                <ul>
+                  <li><a href="#">Cobol Básico e Intermediário</a></li>
+                  <li><a href="#">Cobol Avançado</a></li>
+                  <li><a href="#">PHP 7 com MYSQL + OO</a></li> 
+                  <li><a href="#">PHP Avançado</a></li>
+                  <li><a href="#">Programação Java</a></li>
+                  <li><a href="#">Android</a></li>
+                  <li><a href="#">JEE</a></li>
+                  <li><a href="#">Programação Asp.NET</a></li>
+                </ul>
+              </li>
+              <!---->
+              <!--deep drop down-->
+              <li class="dropdown"><a href="#"><span>Redes</span> <i class="bi bi-plus"></i></a>
+                <ul>
+                  <li><a href="#">Técnico de Suporte</a></li>
+                  <li><a href="#">Técnico em Redes</a></li>
+                  <li><a href="#">Linux - Admnistrador</a></li> 
+                  <li><a href="#">ForeFront</a></li>
+                  <li><a href="#">Windows Server 2012</a></li>
+                </ul>
+              </li>
+              <!---->
+              <!--deep drop down-->
+              <li class="dropdown"><a href="#"><span>CMS</span> <i class="bi bi-plus"></i></a>
+                <ul>
+                  <li><a href="#">WordPress</a></li>
+                  <li><a href="#">Joomla</a></li>
+                </ul>
+              </li>
+               <!---->
+              <li><a href="#">Melhor Idade</a></li>
+            </ul>
+          </li>
+          <!---->
+          <!--Dropdown-->
+          <li class="dropdown"><a href="#"><span>Corporativo</span><i class="bi bi-plus"></i></a>
+            <ul>
+              <li><a href="#">Parceiros</a></li>
+              <li><a href="#">Banco de Currículos e Vagas</a></li>
+              <li><a href="#">Vídeos</a></li>
+            </ul>
+          </li>
+          <!---->
+          <li><a href="portfolio.html">Locação</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      
+      <!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- --- Hero Section --- -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background: url(assets/img/slide/slide-1.png); background-position: center;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown animate__delay-1s">Domine o <span>Excel</span> em 12 aulas</h2>
+                <h3 class="animate__animated animate__fadeInUp animate__delay-1s">por meio dos recursos dessa incrível ferramenta.<br>Do básico ao avançado.</h3>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp animate__delay-1s">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-2.png); background-position: center;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown animate__delay-1s">Aprenda <span class="span_branco">programação</span><br>desenvolvendo na prática.</h2>
+                <h3 class="animate__animated animate__fadeInUp animate__delay-1s">
+                  <img src="assets/img/slide/icon php.png" alt="icon-php">
+                  <img src="assets/img/slide/icon python.png" alt="icon-python">
+                  <img src="assets/img/slide/icon java.png" alt="icon-java">
+                  <img src="assets/img/slide/icon android.png" alt="icon-android">
+                  <img src="assets/img/slide/icon aspnet.png" alt="icon-aspnet">
+
+                </h3>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp animate__delay-1s">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.png); background-position: center;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown animate__delay-1s">TORNE-SE UM <span>DBA</span></h2>
+                <h3 class="animate__animated animate__fadeInUp animate__delay-1s">Domine os recursos dos melhores <strong>bancos de dados</strong> do mercado.</h3>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp animate__delay-1s">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-4.png); background-position: center;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown animate__delay-1s">Curso de <span>Design Gráfico</span></h2>
+                <h3 class="animate__animated animate__fadeInUp animate__delay-1s">Domine as ferramentas técnicas do design gráfico <br> e crie peças publicitárias profissionais.</h3>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp animate__delay-1s">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-5.png); background-position: center;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown animate__delay-1s">Curso de <span>Informática</span></h2>
+                <h3 class="animate__animated animate__fadeInUp animate__delay-1s">Básica e essencial. Comece do início!</h3>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp animate__delay-1s">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+  <!-- Fim Hero -->
+
+  <main id="main">
+
+    <!-- --- Chamadas --- -->
+    <section id="chamada" class="chamada">
+      <div class="container">
+
+        <div id="carouselExampleDark" data-bs-interval="7000" class="carousel carousel-chamada carousel-dark slide" data-bs-ride="carousel">
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="6000">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-box">
+                    <i class="bi bi-check2-square"></i>
+                    <h3><a href="">Ensino de Qualidade</a></h3>
+                    <h5>Saiba porque a Eibneti é a sua melhor opção em treinamento de informática em Brasília.</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                  <div class="icon-box">
+                    <i class="bi bi-pencil-square"></i>
+                    <h3><a href="">Pré Matrícula</a></h3>
+                    <h5>Não perca mais o seu tempo e venha obter uma formação de qualidade e prática que abre portas.</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                  <div class="icon-box">
+                    <i class="bi bi-file-text"></i>
+                    <h3><a href="">Banco de Currículos e Vagas</a></h3>
+                    <h5>Cadastro de currículos para alunos & Cadastro de oportunidades de emprego para empresas.</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-box">
+                    <i class="bi bi-table"></i>
+                    <h3><a href="">Locação de Laboratórios</a></h3>
+                    <h5>Temos o espaço ideal para realização de treinamentos e capacitações para a sua empresa.</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                  <div class="icon-box">
+                    <i class="bi bi-briefcase-fill"></i>
+                    <h3><a href="">Trabalhe Conosco</a></h3>
+                    <h5>Quer se juntar a equipe Eibneti? Envie-nos o seu currículo ou venha nos conhecer.</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                  <div class="icon-box">
+                    <i class="bi bi-info-square"></i>
+                    <h3><a href="">Blog</a></h3>
+                    <h5>Um canal de informações sobre promoções e eventos realizados pela Eibneti, além de notícias e dicas.</h5>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="botoes">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+             
+      </div>
+    </section>
+    <!-- Fim da Chamada -->
+
+    <!-- ======= Sobre Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="about-img col-lg-6">
+            <a href="about.html"><img src="assets/img/foto-laboratorio-eibneti.jpg" class="img-fluid" alt=""></a>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <a href="about.html"><h3>Eibneti – Escola de Informática de Brasília</h3></a>         
+              <h5>A Eibneti é um conceituado e experiente Centro de Treinamento em Informática, com uma ampla visão voltada para as necessidades e tendências do mercado profissional.</h5>
+              <p>
+              Conta para isso com uma moderna estrutura educacional, instrutores especializados e atuantes nas respectivas áreas de ensino e material didático de alto nível. 
+              Ser um dos maiores Centros Profissionalizantes em Ti e Design de Brasília e estar entre os nomes mais lembrados e respeitados por profissionais e empresas do setor, 
+              são fatores que fazem da Eibneti referência no ensino da informática.
+              </p>
+            <a href="about.html" class="btn-get-started">Saiba mais</a>
+          </div>
+        </div> 
+
+      </div>
+    </section> 
+    
+    <!-- End Sobre Section -->
+    <!-- --- turmas --- -->
+    <section id="turmas" class="turmas">
+      <div class="container">
+        <div class="section-title">
+          <h2>Previsão de novas turmas</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-icon-box col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxs-data'></i></div>
+              <h4><a href="">Banco de Dados</a></h4>
+              <p>Conceitos básicos e avançados de criação e manutenção de banco de dados.</p>
+            </div>
+          </div>
+
+          <div class="col-icon-box col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-desktop'></i></div>
+              <h4><a href="">Programação</a></h4>
+              <p>Aprenda programação na prática, do zero ao avançado, já desenvolvendo o seu primeiro sistema.</p>
+
+            </div>
+          </div>
+
+          <div class="col-icon-box col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-pen'></i></div>
+              <h4><a href="">Design / Web</a></h4>
+              <p>Desenvolva sua técnica e criatividade em cursos voltados à capacitação profissional.</p>
+            </div>
+          </div>
+
+          <div class="col-icon-box col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-sitemap'></i></div>
+              <h4><a href="">CMS</a></h4>
+              <p> Aprenda ferramentas de criação/edição de websites sem conhecimentos prévio de programação.</p>
+            </div>
+          </div>
+
+          <div class="col-icon-box col-lg-3 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-network-chart'></i></div>
+              <h4><a href="">Redes</a></h4>
+              <p>Aprenda a solucionar problemas de conectividade, projetar, configurar e gerenciar ambientes de rede.</p>
+            </div>
+          </div>
+
+          <div class="col-icon-box col-lg-3 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxs-paper-plane'></i></div>
+              <h4><a href="">Iniciante</a></h4>
+              <p>Domine os fundamentos do uso de um microcomputador com os seus principais aplicativos.</p>
+            </div>
+          </div>
+
+          <div class="col-icon-box col-lg-3 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-calendar-event'></i></div>
+              <h4><a href="">Gestão</a></h4>
+              <p>Curso especializado em gerência de projetos, Microsoft Project 2010n e Análise de Sistemas.</p>
+            </div>
+          </div>
+
+          <div class="col-icon-box col-lg-3 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-glasses'></i></div>
+              <h4><a href="">Melhor Idade</a></h4>
+              <p>Nunca é tarde para aprender!</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End turmas Section -->
+    <!--Depoimentos-->
+  <div class="depoimento hero-container">
+    <div id="depoimentos" class="carousel slide" data-ride="carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="depoimento-title">
+          <a href=""><h2>Depoimentos</h2></a>
+        </div>     
+        <div class="carousel-item active">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>Temos uma grande base de dados e estamos realizando um processo de recadastramento dos nossos participantes. Esse curso veio de encontro a necessidade de trabalhar esses dados.</p>
+              <h4>Arthur Fidelis</h4>
+              <a href="">SQL Server</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>Trabalho em uma empresa de desenvolvimento de software a pouco mais de 1 ano. Desenvolvia na linguagem C++. No dia 12/12/2011 fiz uma prova de PHP Orientado Objeto e graças ao curso que fiz na escola Eibneti fui aprovado e no dia 16/12 e tomarei posse no cargo de desenvolvedor Php 5. Muito Obrigado Equipe Eibneti.</p>
+              <h4>Carlos Wilkson Costa de Almeida</h4>
+              <a href="">PHP com MySQL</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>Os laboratórios tem boa instalação. O professor é muito competente com bastante conhecimento.</p>
+              <h4>Juli</h4>
+              <a href="">SQL Server</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>Gostei do curso, o instrutor demonstrou profissionalismo e competência. Parabens!!</p>
+              <h4>JEE</h4>
+              <a href="">SQL Server</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>O professor é muito bom: foi o melhor treinamento que já fiz, ele entende muito do assunto.</p>
+              <h4>Wesley Lins Rosa</h4>
+              <a href="">SQL Server</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>No questionário de avaliação feito pela Eibneti, na maioria dos itens pontuei 9 e 10.</p>
+              <h4>Nívia Aparecida de Sousa</h4>
+              <a href="">SQL Server</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>Foi um curso de grande importância e agregou grandes conhecimentos teóricos e práticos. O curso me deu uma visão geral sobre o JEE.</p>
+              <h4>Renato Ribeiro</h4>
+              <a href="">JEE</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>Ao termino do curso de JEE irei realizar outros cursos, como, RUP e UML, colocando em prática a modelagem dos conteúdos adquiridos.</p>
+              <h4>Igor G. dos Santos</h4>
+              <a href="">JEE</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>Na avaliação final coloquei 10 em todos os itens: conteúdo, instrutor, atendimento. O curso será muito útil na criação de um sistema para empresa que eu trabalho.</p>
+              <h4>André de Oliveira</h4>
+              <a href="">PHP</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>O curso me surpreendeu bastante, pois esperava que fosse apenas “mais um curso”, e a experiência do professor nos proporcionou um curso mais completo. Os conhecimentos adquiridos foram de grande importância para minhas atividades tanto acadêmicas quanto profissionais.</p>
+              <h4>Bruno Martins</h4>
+              <a href="">JEE</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+          <div class="img-open-cuote"></div>            
+          <div class="texto-depoimento">
+              <p>Este curso me proporcionou um conhecimento mais amplo e abrangente. Um curso muito bom e o professor possui um alto nível de conhecimento.</p>
+              <h4>Thalison Andrade Azevedo</h4>
+              <a href="">PHP</a>
+            </div>
+            <div class="img-close-cuote"></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#depoimentos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#depoimentos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+    <!--End Depoimentos-->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Clientes</h2>
+          <p>Veja alguns dos nossos clientes que já estudaram conosco.</p></div>
+
+        <div class="clients-slider swiper-container">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/cliente (1).png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/cliente (2).png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/cliente (3).png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/cliente (4).png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/cliente (5).png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/cliente (6).png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/cliente (7).png" class="img-fluid" alt=""></div>
+            </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Novidades</h4>
+            <p>Cadastre-se para receber nossas novidades, promoções e previsão de novas turmas:</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Enviar">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 col-md-6 footer-info">
+            <h3>Eibneti</h3>
+            <p>Desenvolver talentos, formar profissionais, disseminando conhecimento técnico de qualidade, através da excelência no ensino da Tecnologia da Informação.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Quem somos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Corporativo</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Locação</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Cursos</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Banco de Dados</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Programação</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Design e Web</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">CMS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Redes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Iniciantes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Gestão</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Melhor Idade</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contato</h4>
+            <p>
+              SCS Quadra 02 Edifício São Paulo Salas 612 a 615 - Asa Sul, Brasília - DF, 70300-902 <br><br>
+              <strong>Tel:</strong> +55 (61) 3964-3545<br>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="credits">
+      Design by <a href="">Euzinha</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/jquery.js"></script>
+
+</body>
+
+</html>
